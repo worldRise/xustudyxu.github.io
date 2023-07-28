@@ -109,7 +109,7 @@ server:
 
 eureka:
   instance:
-    hostname: locathost #eureka服务端的实例名称
+    hostname: localhost #eureka服务端的实例名称
   client:
     #false表示不向注册中心注册自己。
     register-with-eureka: false
